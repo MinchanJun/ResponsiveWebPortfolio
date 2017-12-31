@@ -1,0 +1,110 @@
+p, h3{
+  font-size: 2em;
+  text-align: center;
+}
+
+.header{
+  width: 100%;
+
+}
+.header__logo{
+  width: 25%;
+  float: left;
+  margin-left: 20%;
+  margin-top: 5%;
+}
+.header__logo__inner{
+  margin-left: 0%;
+  width: 100%;
+  height: 30%;
+}
+
+.header__title{
+  float: right;
+  width: 40%;
+  text-align: center;
+  margin-top: 13%;
+  margin-bottom: 11%;
+  margin-right: 8%;
+  text-align: right;
+}
+
+.header__title__h1{
+  font-size: 3em;
+}
+.header__title__h2{
+  font-size: 2em;
+}
+
+.line{
+  border: 1px black solid;
+  width: 78%;
+  float: right;
+}
+
+.color{
+  float: left;
+  width: 20%;
+  margin-top: 2%;
+}
+
+.color__1{
+
+}
+.color__1__fill{
+  width: 10em;
+  height: 10em;
+  background-color: #02b3e4;
+  margin: auto;
+
+}
+.color__2{
+
+}
+.color__2__fill{
+  width: 10em;
+  height: 10em;
+  background-color: #2d3c49;
+  margin: auto;
+
+}
+.color__3{
+
+}
+.color__3__fill{
+  width: 10em;
+  height: 10em;
+  background-color: #7d97ad;
+  margin: auto;
+
+}
+
+.main{
+    float: left;
+    width: 72%;
+    margin: 2% 2% 5% 2%;
+}
+.main__img{
+  width: 100%;
+  height: 100%;
+
+}
+
+.featured{
+  float: right;
+  width: 77%;
+  margin: 0;
+
+}
+.feature__img__1{
+  margin-top: 2%;
+  margin-left: 5%;
+  width: 77%;
+  height: 77%;
+}
+.feature__img__text{
+  padding-right: 14%;
+}
+.clearfix{
+  overflow: auto;
+}
