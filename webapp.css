@@ -38,8 +38,9 @@ p, h3{
 
 .line{
   border: 1px black solid;
-  width: 78%;
+  width: 73%;
   float: right;
+  margin-right: 5%;
 }
 
 .color{
