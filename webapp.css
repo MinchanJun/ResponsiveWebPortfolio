@@ -9,10 +9,10 @@ p, h3{
 
 }
 .header__logo{
-  width: 25%;
+  width: 15%;
   float: left;
-  margin-left: 20%;
-  margin-top: 0;
+  margin-left: 22%;
+  margin-top: 2%;
 }
 .header__logo__inner{
   margin-left: 0%;
