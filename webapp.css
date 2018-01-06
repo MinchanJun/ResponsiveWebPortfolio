@@ -54,7 +54,7 @@ p, h3{
 
 }
 .color__1__fill{
-  width: 10em;
+  width: 50%;
   height: 10em;
   background-color: #02b3e4;
   margin: auto;
@@ -64,7 +64,7 @@ p, h3{
 
 }
 .color__2__fill{
-  width: 10em;
+  width: 50%;
   height: 10em;
   background-color: #2d3c49;
   margin: auto;
@@ -74,7 +74,7 @@ p, h3{
 
 }
 .color__3__fill{
-  width: 10em;
+  width: 50%;
   height: 10em;
   background-color: #7d97ad;
   margin: auto;
