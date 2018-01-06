@@ -94,11 +94,11 @@ p, h3{
 
 .featured{
   display: flex;
-  float: right;
-  width: 75%;
+  float: left;
+  width: 80%;
 
 }
-.feature__img__1{
+.featured__img__1{
   margin-top: 2%;
   margin-left: 5%;
   width: 77%;
