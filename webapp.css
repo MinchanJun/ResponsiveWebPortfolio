@@ -23,10 +23,9 @@ p, h3{
 .header__title{
   float: right;
   width: 40%;
-  text-align: center;
   margin-top: 8%;
-  margin-bottom: 6%;
-  margin-right: 8%;
+  margin-bottom: 1%;
+  margin-right: 6%;
   text-align: right;
 }
 
