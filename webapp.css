@@ -94,7 +94,9 @@ main{
   height: 100%;
 
 }
-
+.featured__title__h1{
+  font-size: 4em;
+}
 .featured{
   display: flex;
   float: left;
@@ -109,6 +111,18 @@ main{
 }
 .feature__img__text{
   padding-right: 14%;
+  font-size: 3em;
+  margin-bottom: 0;
+}
+.feature__img__git{
+  font-size: 1.6em;
+  padding-left: 0%;
+
+}
+.feature__img__git__sub{
+  font-size: 1.6em;
+  padding-left: 4%;
+
 }
 .clearfix{
   overflow: auto;
