@@ -62,9 +62,9 @@ p, h3{
 }
 
 .main{
-    float: left;
-    width: 70%;
-    margin: 2% 2% 10% 2%;
+  float: left;
+  width: 73%;
+  margin: 2% 2% 3% 2
 }
 .main__img{
   width: 100%;
