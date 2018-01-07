@@ -2,6 +2,9 @@ p, h3{
   font-size: 2em;
   text-align: center;
 }
+main{
+  color: #66656d;
+}
 
 .header{
   width: 100%;
@@ -30,14 +33,14 @@ p, h3{
 }
 
 .header__title__h1{
-  font-size: 3em;
+  font-size: 5em;
 }
 .header__title__h2{
   font-size: 2em;
 }
 
 .line{
-  border: 1px black solid;
+  border: 3px grey solid;
   width: 77%;
   float: right;
   margin-right: 5%;
