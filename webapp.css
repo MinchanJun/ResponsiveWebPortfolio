@@ -114,16 +114,7 @@ main{
   font-size: 3em;
   margin-bottom: 0;
 }
-.feature__img__git{
-  font-size: 1.6em;
-  padding-left: 0%;
 
-}
-.feature__img__git__sub{
-  font-size: 1.6em;
-  padding-left: 4%;
-
-}
 .clearfix{
   overflow: auto;
 }
