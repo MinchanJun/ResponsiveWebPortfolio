@@ -2,11 +2,14 @@ p, h3{
   font-size: 2em;
   text-align: center;
 }
+main{
+  color: #66656d;
+}
 
 
 .header__logo__inner{
-  margin-left: 37%;
-  width: 30%;
+  margin-left: 44%;
+  width: 15%;
   height: 30%;
 }
 
@@ -22,7 +25,7 @@ p, h3{
 }
 
 .line{
-  border: 1px black solid;
+  border: 3px grey solid;
 }
 .color{
   float: left;
