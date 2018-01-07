@@ -118,3 +118,8 @@ main{
 .clearfix{
   overflow: auto;
 }
+.footer{
+  font-size: 2em;
+  padding-top: 20%;
+  text-align: center;
+}
