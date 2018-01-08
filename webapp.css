@@ -2,6 +2,7 @@ p, h3{
   font-size: 2em;
   text-align: center;
 }
+
 main{
   color: #66656d;
 }
@@ -9,6 +10,8 @@ main{
 .container{
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
+  align-items: baseline;
 }
 
 .header{
@@ -20,7 +23,6 @@ main{
   width: 19%;
   height: 19%;
   float: left;
-  margin-left: 5%;
   margin-top: 1%;
 }
 .header__logo__inner{
@@ -100,14 +102,21 @@ main{
   height: 100%;
 
 }
+.featured{
+  float: left;
+  width: 80%;
+  margin-bottom: 1%;
+  margin-right: 2%;
+
+}
+.featured__title{
+  width: 100%;
+}
 .featured__title__h1{
   font-size: 4em;
 }
-.featured{
-  display: flex;
-  float: left;
-  width: 80%;
-
+.featured__img{
+  width: 33%;
 }
 .feature__img__1{
   margin-top: 2%;
