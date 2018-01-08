@@ -6,13 +6,28 @@ main{
   color: #66656d;
 }
 
+.container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: baseline;
+}
+.header{
+  width: 50%;
+  margin-left: 26%;
 
-.header__logo__inner{
-  margin-left: 44%;
-  width: 15%;
-  height: 30%;
+}
+.header__logo{
+  width: 25%;
+  margin-top: 1%;
+  margin-left: 34%;
+  margin-right: 39%;
 }
 
+.header__logo__inner{
+  width: 100%;
+  height: 30%;
+}
 .header__title{
   width: 100%;
   height: 30%;
@@ -22,6 +37,11 @@ main{
 
 .header__title__h1{
   font-size: 3em;
+  margin: 0;
+}
+.header__title__h2{
+  font-size: 1.5em;
+  margin: 0;
 }
 
 .line{
@@ -30,13 +50,16 @@ main{
 .color{
   float: left;
   width: 20%;
-  margin: 10px;
+  margin-right: 2%;
+  margin-top: 2%;
+  margin-bottom: 144%;
 
 }
 
-.color__1{
-
+.color__1__text{
+  margin-top: 0;
 }
+
 .color__1__fill{
   width: 5em;
   height: 5em;
@@ -44,9 +67,10 @@ main{
   margin: auto;
 
 }
-.color__2{
-
+.color__2__text{
+  margin-top: 0;
 }
+
 .color__2__fill{
   width: 5em;
   height: 5em;
@@ -54,8 +78,8 @@ main{
   margin: auto;
 
 }
-.color__3{
-
+.color__3__text{
+  margin-top: 0;
 }
 .color__3__fill{
   width: 5em;
@@ -67,7 +91,7 @@ main{
 .main{
   float: left;
   width: 73%;
-  margin: 2% 2% 3% 2%;
+  margin: 2% 2% 5% 2%;
 }
 .main__img{
   width: 100%;
@@ -76,14 +100,16 @@ main{
 }
 
 .featured{
-  display: flex;
   float: right;
-  width: 82%;
+  width: 77%;
 
 }
-
-.featured__img{
-
+.featured__title{
+  width: 100%;
+}
+.featured__title__h1{
+  font-size: 2em;
+  text-align: center;
 }
 .feature__img__1{
   margin-left: 20%;
@@ -97,4 +123,5 @@ main{
   font-size: 1.5em;
   padding-top: 30%;
   text-align: center;
+  width: 100%;
 }

@@ -24,6 +24,8 @@ main{
   height: 19%;
   float: left;
   margin-top: 1%;
+  margin-left: 0%;
+  margin-right: 0%;
 }
 .header__logo__inner{
   margin-left: 0%;
