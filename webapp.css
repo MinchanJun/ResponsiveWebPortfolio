@@ -6,15 +6,21 @@ main{
   color: #66656d;
 }
 
-.header{
-  width: 100%;
+.container{
+  display: flex;
+  flex-direction: row;
+}
 
+.header{
+  width: 78%;
+  margin-left: 17%;
 
 }
 .header__logo{
-  width: 15%;
+  width: 19%;
+  height: 19%;
   float: left;
-  margin-left: 22%;
+  margin-left: 5%;
   margin-top: 1%;
 }
 .header__logo__inner{
@@ -24,19 +30,19 @@ main{
 }
 
 .header__title{
-  float: right;
-  width: 40%;
-  margin-top: 8%;
+  width: 80%;
+  margin-top: 10%;
   margin-bottom: 1%;
-  margin-right: 6%;
   text-align: right;
 }
 
 .header__title__h1{
   font-size: 5em;
+  margin: 0;
 }
 .header__title__h2{
   font-size: 2em;
+  margin: 0;
 }
 
 .line{
