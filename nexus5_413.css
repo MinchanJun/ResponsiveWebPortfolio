@@ -5,7 +5,17 @@ p, h3{
 main{
   color: #66656d;
 }
-
+.container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: baseline;
+}
+.header__logo{
+  width: 55%;
+  margin-left: 24%;
+  margin-top: 5%;
+}
 .header__logo__inner{
   margin-left: 35%;
   width: 30%;
@@ -22,8 +32,6 @@ main{
 .header__title__h1{
   font-size: 4em;
 }
-
-
 
 .color__1{
   text-align: center;
@@ -80,5 +88,5 @@ main{
 }
 .footer{
   text-align: center;
-  font-size: 1.1em;
+  font-size: 0.4em;
 }
