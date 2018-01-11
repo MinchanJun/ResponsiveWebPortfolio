@@ -48,6 +48,16 @@ body{
         height: 25vh;
       }
     }
+    /* Desktop styles sheet eg. @screen media and (min-width: 1024px)  */
+    @media screen and (min-width: 1024px){
+      .header__logo{
+        flex: 1;
+      }
+      .header__logo__inner{
+        width: 20vw;
+        height: 25vh;
+      }
+    }
 .header__title{
   /* Base declaration for header__title */
   width: 100%;
@@ -110,13 +120,13 @@ body{
   align-items: center;
   justify-content: center;
 }
-  /* Desktop styles sheet eg. @screen media and (min-width: 1024px)  */
-  @media screen and (min-width: 1024px){
-    .color{
-      order: 1;
-      width: 10vw;
+    /* Desktop styles sheet eg. @screen media and (min-width: 1024px)  */
+    @media screen and (min-width: 1024px){
+      .color{
+        order: 1;
+        width: 10vw;
+      }
     }
-  }
 .color__set{
   flex: 1;
 
@@ -131,52 +141,52 @@ body{
   background-color: #02b3e4;
 
 }
-  /* Tablet styles sheet  eg. @screen media and (min-width: 768px)  */
-  @media screen and (min-width: 768px){
-    .color__set__02b3e4{
-      height: 15vh;
+    /* Tablet styles sheet  eg. @screen media and (min-width: 768px)  */
+    @media screen and (min-width: 768px){
+      .color__set__02b3e4{
+        height: 15vh;
+      }
     }
-  }
-  /* Desktop styles sheet eg. @screen media and (min-width: 1024px)  */
-  @media screen and (min-width: 1024px){
-    .color__set__02b3e4{
-      width: 10vw;
+    /* Desktop styles sheet eg. @screen media and (min-width: 1024px)  */
+    @media screen and (min-width: 1024px){
+      .color__set__02b3e4{
+        width: 10vw;
+      }
     }
-  }
 .color__set__2d3c49{
   width: 100vw;
   height: 10vh;
   background-color: #2d3c49;
 }
-  /* Tablet styles sheet  eg. @screen media and (min-width: 768px)  */
-  @media screen and (min-width: 768px){
-    .color__set__2d3c49{
-      height: 15vh;
+    /* Tablet styles sheet  eg. @screen media and (min-width: 768px)  */
+    @media screen and (min-width: 768px){
+      .color__set__2d3c49{
+        height: 15vh;
+      }
     }
-  }
-  /* Desktop styles sheet eg. @screen media and (min-width: 1024px)  */
-  @media screen and (min-width: 1024px){
-    .color__set__2d3c49{
-      width: 10vw;
+    /* Desktop styles sheet eg. @screen media and (min-width: 1024px)  */
+    @media screen and (min-width: 1024px){
+      .color__set__2d3c49{
+        width: 10vw;
+      }
     }
-  }
 .color__set__7d97ad{
   width: 100vw;
   height: 10vh;
   background-color: #7d97ad;
 }
-  /* Tablet styles sheet  eg. @screen media and (min-width: 768px)  */
-  @media screen and (min-width: 768px){
-    .color__set__7d97ad{
-      height: 15vh;
+    /* Tablet styles sheet  eg. @screen media and (min-width: 768px)  */
+    @media screen and (min-width: 768px){
+      .color__set__7d97ad{
+        height: 15vh;
+      }
     }
-  }
-  /* Tablet styles sheet  eg. @screen media and (min-width: 768px)  */
-  @media screen and (min-width: 1024px){
-    .color__set__7d97ad{
-      width: 10vw;
+    /* Tablet styles sheet  eg. @screen media and (min-width: 768px)  */
+    @media screen and (min-width: 1024px){
+      .color__set__7d97ad{
+        width: 10vw;
+      }
     }
-  }
 
 .color__set__text{
   margin: 0;
@@ -184,49 +194,49 @@ body{
 .main{
   order: 1;
 }
-  /* Desktop styles sheet eg. @screen media and (min-width: 1024px)  */
-  @media screen and (min-width: 1024px){
-    .main{
-      order: 2;
-      width: 80vw;
+    /* Desktop styles sheet eg. @screen media and (min-width: 1024px)  */
+    @media screen and (min-width: 1024px){
+      .main{
+        order: 2;
+        width: 80vw;
+      }
     }
-  }
 .main__img{
   width: 100vw;
   height: 70vh;
 }
-  /* Desktop styles sheet eg. @screen media and (min-width: 1024px)  */
-  @media screen and (min-width: 1024px){
-    .main__img{
+    /* Desktop styles sheet eg. @screen media and (min-width: 1024px)  */
+    @media screen and (min-width: 1024px){
+      .main__img{
 
+      }
     }
-  }
 .featured{
   order: 3;
   text-align: center;
 }
-/* Desktop styles sheet eg. @screen media and (min-width: 1024px)  */
-@media screen and (min-width: 1024px){
-  .featured{
-    display: flex;
-    flex-flow: row wrap;
-    align-items: center;
-    justify-content: center;
-  }
-}
+    /* Desktop styles sheet eg. @screen media and (min-width: 1024px)  */
+    @media screen and (min-width: 1024px){
+      .featured{
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        justify-content: center;
+      }
+    }
 .featured__title{
   width: 100vw;
 }
 .featured__img__1{
   width: 100vw;
 }
-  /* Desktop styles sheet eg. @screen media and (min-width: 1024px)  */
-  @media screen and (min-width: 1024px){
-    .featured__img__1{
-      flex: 1;
-      width: 30vw;
+    /* Desktop styles sheet eg. @screen media and (min-width: 1024px)  */
+    @media screen and (min-width: 1024px){
+      .featured__img__1{
+        flex: 1;
+        width: 30vw;
+      }
     }
-  }
 .footer{
   text-align: center;
 }
