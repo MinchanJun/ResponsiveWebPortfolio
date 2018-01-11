@@ -35,6 +35,8 @@ body{
   /* Base declaration for header__logo */
 }
 .header__logo__inner{
+  width: 30vw;
+  height: 20vh;
 }
     /* Desktop styles sheet eg. @screen media and (min-width: 1024px)  */
     @media screen and (min-width: 1024px){
@@ -42,7 +44,8 @@ body{
         flex: 1;
       }
       .header__logo__inner{
-        width: 100%;
+        width: 20vw;
+        height: 25vh;
       }
     }
 .header__title{
