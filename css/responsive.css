@@ -222,11 +222,18 @@ body{
         flex-flow: row wrap;
         align-items: center;
         justify-content: center;
+        margin: 5% 10% 5% 19%;
       }
     }
 .featured__title{
   width: 100vw;
 }
+  /* Desktop styles sheet eg. @screen media and (min-width: 1024px)  */
+  @media screen and (min-width: 1024px){
+    .featured__title{
+      width: 70vw;
+      text-align: left;
+    }
 .featured__img__1{
   width: 100vw;
 }
@@ -234,7 +241,12 @@ body{
   @media screen and (min-width: 1024px){
     .featured__img__1{
       flex: 1;
-      width: 30vw;
+      width: 20vw;
+    }
+    .featured__img{
+      width: 21vw;
+      margin-left: 1%;
+      margin-right: 1%;
     }
   }
 .footer{
