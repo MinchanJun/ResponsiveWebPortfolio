@@ -9,16 +9,15 @@ body{
   color: #66656d;
 }
 .wrapper{
-  /* Base declaration for layout */
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-around;
-  font-weight: bold;
-  text-align: center;
 }
-.header{
+.header__row{
   /* Base declaration for header */
-  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
     /* Desktop styles sheet eg. @screen media and (min-width: 1024px)  */
     @media screen and (min-width: 1024px){
@@ -28,21 +27,19 @@ body{
         margin-left: 10%;
 
       }
-      .inline{
-        width: 100%;
-        display: inline-flex;
-      }
+      .header__row{
+        display: flex;
+        }
     }
 .header__logo{
   /* Base declaration for header__logo */
-  width: 100%;
+}
+.header__logo__inner{
 }
     /* Desktop styles sheet eg. @screen media and (min-width: 1024px)  */
     @media screen and (min-width: 1024px){
       .header__logo{
-        width: 50%;
-        padding-right: 20%;
-        padding-left: 7%;
+        flex: 1;
       }
       .header__logo__inner{
         width: 100%;
@@ -51,12 +48,13 @@ body{
 .header__title{
   /* Base declaration for header__title */
   width: 100%;
+  text-align: center;
 }
     /* Desktop styles sheet eg. @screen media and (min-width: 1024px)  */
     @media screen and (min-width: 1024px){
       .header__title{
-        width: 95%;
-        padding: 10% 3% 0 5%;
+        flex: 2;
+        align-self: flex-end;
         text-align: right;
       }
     }
@@ -102,138 +100,130 @@ body{
   margin-top: 5%;
   margin-bottom: 5%;
 }
-  /* Desktop styles sheet eg. @screen media and (min-width: 1024px)  */
-  @media screen and (min-width: 1024px){
-    .line{
-      margin: 1% 13% 1% 17%;
-    }
-  }
 .color{
-  /* Base declaration for color */
-  width: 100%;
+  order: 2;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
 }
   /* Desktop styles sheet eg. @screen media and (min-width: 1024px)  */
   @media screen and (min-width: 1024px){
     .color{
-      width: 12%;
+      order: 1;
+      width: 10vw;
     }
   }
 .color__set{
-  text-align: center;
+  flex: 1;
+
+}
+.color__set__1{
+  flex: 1;
+  order: -1;
 }
 .color__set__02b3e4{
-  /* Base declaration for color__set__02b3e4 */
-  width: 100%;
-  height: 5em;
+  width: 100vw;
+  height: 10vh;
   background-color: #02b3e4;
-  margin: auto;
+
 }
   /* Tablet styles sheet  eg. @screen media and (min-width: 768px)  */
   @media screen and (min-width: 768px){
     .color__set__02b3e4{
-      width: 100%;
-      height: 9em;
-      background-color: #02b3e4;
-      margin: auto;
+      height: 15vh;
+    }
+  }
+  /* Desktop styles sheet eg. @screen media and (min-width: 1024px)  */
+  @media screen and (min-width: 1024px){
+    .color__set__02b3e4{
+      width: 10vw;
     }
   }
 .color__set__2d3c49{
-  /* Base declaration for color__set__2d3c49 */
-  width: 100%;
-  height: 5em;
+  width: 100vw;
+  height: 10vh;
   background-color: #2d3c49;
-  margin: auto;
 }
   /* Tablet styles sheet  eg. @screen media and (min-width: 768px)  */
   @media screen and (min-width: 768px){
     .color__set__2d3c49{
-      width: 100%;
-      height: 9em;
-      background-color: #2d3c49;
-      margin: auto;
+      height: 15vh;
+    }
+  }
+  /* Desktop styles sheet eg. @screen media and (min-width: 1024px)  */
+  @media screen and (min-width: 1024px){
+    .color__set__2d3c49{
+      width: 10vw;
     }
   }
 .color__set__7d97ad{
-  /* Base declaration for color__set__7d97ad */
-  width: 100%;
-  height: 5em;
+  width: 100vw;
+  height: 10vh;
   background-color: #7d97ad;
-  margin: auto;
 }
   /* Tablet styles sheet  eg. @screen media and (min-width: 768px)  */
   @media screen and (min-width: 768px){
     .color__set__7d97ad{
-      width: 100%;
-      height: 9em;
-      background-color: #7d97ad;
-      margin: auto;
+      height: 15vh;
     }
   }
+  /* Tablet styles sheet  eg. @screen media and (min-width: 768px)  */
+  @media screen and (min-width: 1024px){
+    .color__set__7d97ad{
+      width: 10vw;
+    }
+  }
+
 .color__set__text{
-  margin-top: 0%;
-  font-size: 2em;
+  margin: 0;
 }
 .main{
-  width: 100%;
+  order: 1;
 }
   /* Desktop styles sheet eg. @screen media and (min-width: 1024px)  */
   @media screen and (min-width: 1024px){
     .main{
-      width: 70%;
-      margin-right: 11%;
+      order: 2;
+      width: 80vw;
     }
   }
 .main__img{
-  /* Base declaration for main__img */
-  width: 100%;
+  width: 100vw;
+  height: 70vh;
+}
+  /* Desktop styles sheet eg. @screen media and (min-width: 1024px)  */
+  @media screen and (min-width: 1024px){
+    .main__img{
 
-}
-  /* Desktop styles sheet eg. @screen media and (min-width: 1024px)  */
-  @media screen and (min-width: 1024px){
-  .inline2{
-    width: 79%;
+    }
   }
-  .featured__img{
-    width: 30%;
-    display: inline-block;
-  }
-  }
-.featured__title{
-  /* Base declaration for featured__title */
-  margin-top: 10%;
-  width: 100%;
-}
-  /* Desktop styles sheet eg. @screen media and (min-width: 1024px)  */
-  @media screen and (min-width: 1024px){
-  .featured__title{
-    margin: 0;
-  }
-  }
-.featured__title__h1{
-  /* Base declaration for featured__title__h1 */
+.featured{
+  order: 3;
   text-align: center;
 }
-  @media screen and (min-width: 768px){
-    .featured__title__h1{
-      font-size: 3em;
-    }
+/* Desktop styles sheet eg. @screen media and (min-width: 1024px)  */
+@media screen and (min-width: 1024px){
+  .featured{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
   }
-.featured__img__text{
-  margin-bottom: 0;
+}
+.featured__title{
+  width: 100vw;
 }
 .featured__img__1{
-  margin-top: 5%;
-  margin-left: 5%;
-  width: 77%;
-  height: 77%;
-}
-.footer__text{
-  /* Base declaration for footer__text */
-  font-size: 1rem;
+  width: 100vw;
 }
   /* Desktop styles sheet eg. @screen media and (min-width: 1024px)  */
   @media screen and (min-width: 1024px){
-    .footer__text{
-    font-size: 2rem;
+    .featured__img__1{
+      flex: 1;
+      width: 30vw;
     }
   }
+.footer{
+  text-align: center;
+}
