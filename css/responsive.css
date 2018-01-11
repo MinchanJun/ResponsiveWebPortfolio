@@ -208,7 +208,7 @@ body{
     /* Desktop styles sheet eg. @screen media and (min-width: 1024px)  */
     @media screen and (min-width: 1024px){
       .main__img{
-
+        width: 70vw;
       }
     }
 .featured{
