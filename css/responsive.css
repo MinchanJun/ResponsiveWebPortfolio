@@ -123,6 +123,8 @@ body{
       .color{
         order: 1;
         width: 10vw;
+        margin: auto;
+
       }
     }
 .color__set{
