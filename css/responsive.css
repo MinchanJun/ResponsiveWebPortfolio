@@ -67,11 +67,13 @@ body{
 .header__title__h1{
   /* Base declaration for header__title__h1 */
   margin: 0;
+  font-size: 3.5rem;
+
 }
     /* Tablet styles sheet  eg. @screen media and (min-width: 768px)  */
     @media screen and (min-width: 768px){
       .header__title__h1{
-        font-size: 3.5em;
+        font-size: 5.5em;
       }
     }
     /* Desktop styles sheet eg. @screen media and (min-width: 1024px)  */
@@ -83,12 +85,12 @@ body{
 .header__title__h2{
   /* Base declaration for header__title__h2 */
   margin: 0;
-  font-size: 0.8em;
+  font-size: 2.0rem;
 }
     /* Tablet styles sheet  eg. @screen media and (min-width: 768px)  */
     @media screen and (min-width: 768px){
       .header__title__h2{
-        font-size: 1.5em;
+        font-size: 2.5em;
       }
     }
     /* Desktop styles sheet eg. @screen media and (min-width: 1024px)  */
@@ -108,7 +110,7 @@ body{
     /* Desktop styles sheet eg. @screen media and (min-width: 1024px)  */
     @media screen and (min-width: 1024px){
       .line{
-        margin: 5% 10% 5% 20%;
+        margin: 2% 10% 5% 20%;
       }
     }
 .color{
@@ -117,6 +119,7 @@ body{
   flex-flow: column wrap;
   align-items: center;
   justify-content: center;
+  margin-top: 5%;
 }
     /* Desktop styles sheet eg. @screen media and (min-width: 1024px)  */
     @media screen and (min-width: 1024px){
@@ -136,7 +139,7 @@ body{
   order: -1;
 }
 .color__set__02b3e4{
-  width: 100vw;
+  width: 98vw;
   height: 10vh;
   background-color: #02b3e4;
 
@@ -154,7 +157,7 @@ body{
       }
     }
 .color__set__2d3c49{
-  width: 100vw;
+  width: 98vw;
   height: 10vh;
   background-color: #2d3c49;
 }
@@ -171,7 +174,7 @@ body{
       }
     }
 .color__set__7d97ad{
-  width: 100vw;
+  width: 98vw;
   height: 10vh;
   background-color: #7d97ad;
 }
@@ -202,7 +205,7 @@ body{
       }
     }
 .main__img{
-  width: 100vw;
+  width: 98vw;
   height: 70vh;
 }
     /* Desktop styles sheet eg. @screen media and (min-width: 1024px)  */
@@ -214,11 +217,12 @@ body{
 .featured{
   order: 3;
   text-align: center;
+  margin-top: 5%;
 }
     /* Tablet styles sheet  eg. @screen media and (min-width: 768px)  */
     @media screen and (min-width: 768px){
       .featured{
-        width: 100vw;
+        width: 98vw;
       }
     }
 
@@ -229,7 +233,7 @@ body{
         flex-flow: row wrap;
         align-items: center;
         justify-content: center;
-        margin: 5% 10% 5% 19%;
+        margin: 5% 10% 2% 19%;
       }
     }
 .featured__title{
@@ -243,16 +247,22 @@ body{
     }
   }
 .featured__title__h2{
-  font-size: 2.5rem;
+  font-size: 3.5rem;
   margin: 0;
 }
+    /* Tablet styles sheet  eg. @screen media and (min-width: 768px)  */
+    @media screen and (min-width: 768px){
+      .featured__title__h2{
+        font-size: 4.5rem;
+      }
+    }
 .featured__img{
-
+  margin-bottom: 5%;
 }
     /* Tablet styles sheet  eg. @screen media and (min-width: 768px)  */
     @media screen and (min-width: 768px){
       .featured__img{
-        width: 100vw;
+        width: 98vw;
       }
     }
     /* Desktop styles sheet eg. @screen media and (min-width: 1024px)  */
@@ -265,7 +275,7 @@ body{
       }
     }
 .featured__img__1{
-  width: 100vw;
+  width: 98vw;
 }
   /* Desktop styles sheet eg. @screen media and (min-width: 1024px)  */
   @media screen and (min-width: 1024px){
@@ -276,20 +286,45 @@ body{
     }
   }
 .featured__img__text{
+    margin: 0;
 }
-  /* Desktop styles sheet eg. @screen media and (min-width: 1024px)  */
-  @media screen and (min-width: 1024px){
-    .featured__img__text{
-      font-size: 2.5rem;
-      margin: 0;
-    }
-    .featured__img__link{
-      font-size: 0.2rem;
-      margin: 0;
-    }
-  }
+    /* Tablet styles sheet eg. @screen media and (min-width: 768px)  */
+    @media screen and (min-width: 768px){
+      .featured__img__text{
+        font-size: 3.5rem;
 
+      }
+    }
+    /* Desktop styles sheet eg. @screen media and (min-width: 1024px)  */
+    @media screen and (min-width: 1024px){
+      .featured__img__text{
+        font-size: 2.5rem;
+
+      }
+    }
+.featured__img__text__link{
+}
+    /* Tablet styles sheet eg. @screen media and (min-width: 768px)  */
+    @media screen and (min-width: 768px){
+      .featured__img__text__link{
+        font-size: 3.0rem;
+        margin: 0;
+      }
+    }
+    /* Desktop styles sheet eg. @screen media and (min-width: 1024px)  */
+    @media screen and (min-width: 1024px){
+      .featured__img__text__link{
+        font-size: 1.1rem;
+        margin: 0;
+      }
+
+    }
 .footer{
   text-align: center;
-  margin: 5% 10% 5% 20%;
+}
+/* Desktop styles sheet eg. @screen media and (min-width: 1024px)  */
+@media screen and (min-width: 1024px){
+  .footer{
+    margin: 2% 10% 5% 20%;
+  }
 }
