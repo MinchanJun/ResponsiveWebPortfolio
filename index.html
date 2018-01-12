@@ -22,7 +22,6 @@
 
   <main class="wrapper">
     <div class="line">
-      <div></div>
     </div>
 
     <div class="color">
@@ -45,10 +44,14 @@
 
     <div class="main">
       <picture >
-          <source srcset="img/main_1920.jpg 1920w" media="(min-width:1380px)">
-          <source srcset="img/main_1280.png 1280w" media="(min-width:800px)">
-          <source srcset="img/main_800.png 800w" media="(min-width:769px)">
-          <source srcset="img/main_768.png 768w" media="(min-width:413px)">
+          <source srcset="img/main_1920.jpg 1920w" media="(min-width:1380px)"
+          sizes="(max-width: 40em) 100vw, 50vw">
+          <source srcset="img/main_1280.png 1280w" media="(min-width:800px)"
+          sizes="(max-width: 40em) 100vw, 50vw">
+          <source srcset="img/main_800.png 800w" media="(min-width:769px)"
+          sizes="(max-width: 40em) 100vw, 50vw">
+          <source srcset="img/main_768.png 768w" media="(min-width:413px)"
+          sizes="(max-width: 40em) 100vw, 50vw">
           <img class="main__img" srcset="img/main_412.png 412w" alt="main">
       </picture>
     </div>
@@ -59,37 +62,36 @@
         <h2 class="featured__title__h2">Featured Work</h2>
       </div>
 
-      <section class="featured__img">
+      <div class="featured__img">
         <img class="featured__img__1" src="img/feature1.png" alt="main">
         <p class="featured__img__text">Movie Trailer</p>
         <a href="https://github.com/MinchanJun/MovieTrailer" class="featured__img__text__link">MinchanJun/MovieTrailer</a>
-      </section>
+      </div>
 
-      <section class="featured__img">
+      <div class="featured__img">
         <img class="featured__img__1" src="img/feature2.png" alt="main">
         <p class="featured__img__text">Portfolio</p>
         <a href="https://github.com/MinchanJun/ResponsiveWebPortfolio" class="featured__img__text__link">MinchanJun/ResponsiveWebPortfolio</a>
-      </section>
+      </div>
 
-      <section class="featured__img">
+      <div class="featured__img">
         <img class="featured__img__1" src="img/feature3.png" alt="main">
         <p class="featured__img__text">Restaurant Pick</p>
         <a href="https://github.com/MinchanJun/random-restaurant" class="featured__img__text__link">MinchanJun/random-restaurant</a>
-      </section>
+      </div>
 
     </article>
   </main>
 
 
   <footer class="footer">
-    <figure>
-      <p class="footer__text">2017-2018 Minchan Jun. Content is available under his license.</p>
+    <figure class="footer__one">
+      <p class="footer__one__text">2017-2018 Minchan Jun. Content is available under his license.</p>
+    </figure>
+    <figure class="footer__two">
       <i class="fa fa-github fa-3x" aria-hidden="true"></i>
       <i class="fa fa-linkedin-square fa-3x" aria-hidden="true"></i>
-
     </figure>
-
-
   </footer>
 </body>
 
