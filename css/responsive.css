@@ -9,6 +9,7 @@ body{
   color: #66656d;
 }
 .wrapper{
+  /* Base declaration for .wrapper this will be used in main tag */
   display: flex;
   flex-flow: row wrap;
 }
@@ -31,6 +32,7 @@ body{
   /* Base declaration for header__logo */
 }
 .header__logo__inner{
+  /* Base declaration for header__logo__inner */
   width: 30vw;
   height: 20vh;
 }
@@ -100,7 +102,7 @@ body{
       }
     }
 .line{
-  /* Base declaration for font line */
+  /* Base declaration for line */
   /* border-width | border-style | border-color */
   border: 2px grey solid;
   width: 100%;
@@ -110,10 +112,12 @@ body{
     /* Desktop styles sheet eg. @screen media and (min-width: 1024px)  */
     @media screen and (min-width: 1024px){
       .line{
+        /* margin-top | margin-right | margin-bottom | margin-left */
         margin: 2% 10% 5% 20%;
       }
     }
 .color{
+  /* Base declaration for color */
   order: 2;
   display: flex;
   flex-flow: column wrap;
@@ -131,14 +135,17 @@ body{
       }
     }
 .color__set{
+  /* Base declaration for font .color__set */
   flex: 1;
 
 }
 .color__set__1{
+  /* Base declaration for color__set__1 */
   flex: 1;
   order: -1;
 }
 .color__set__02b3e4{
+  /* Base declaration for color__set__02b3e4 */
   width: 98vw;
   height: 10vh;
   background-color: #02b3e4;
@@ -157,6 +164,7 @@ body{
       }
     }
 .color__set__2d3c49{
+  /* Base declaration for color__set__2d3c49 */
   width: 98vw;
   height: 10vh;
   background-color: #2d3c49;
@@ -174,6 +182,7 @@ body{
       }
     }
 .color__set__7d97ad{
+  /* Base declaration for color__set__7d97ad */
   width: 98vw;
   height: 10vh;
   background-color: #7d97ad;
@@ -192,9 +201,11 @@ body{
     }
 
 .color__set__text{
+  /* Base declaration for color__set__text */
   margin: 0;
 }
 .main{
+  /* Base declaration for main */
   order: 1;
 }
     /* Desktop styles sheet eg. @screen media and (min-width: 1024px)  */
@@ -205,6 +216,7 @@ body{
       }
     }
 .main__img{
+  /* Base declaration for main__img */
   width: 98vw;
   height: 70vh;
 }
@@ -215,6 +227,7 @@ body{
       }
     }
 .featured{
+  /* Base declaration for featured */
   order: 3;
   text-align: center;
   margin-top: 5%;
@@ -237,6 +250,7 @@ body{
       }
     }
 .featured__title{
+  /* Base declaration for featured__title */
   width: 100vw;
 }
   /* Desktop styles sheet eg. @screen media and (min-width: 1024px)  */
@@ -247,6 +261,7 @@ body{
     }
   }
 .featured__title__h2{
+  /* Base declaration for featured__title__h2 */
   font-size: 3.5rem;
   margin: 0;
 }
@@ -257,6 +272,7 @@ body{
       }
     }
 .featured__img{
+  /* Base declaration for featured__img */
   margin-bottom: 5%;
 }
     /* Tablet styles sheet  eg. @screen media and (min-width: 768px)  */
@@ -275,6 +291,7 @@ body{
       }
     }
 .featured__img__1{
+  /* Base declaration for featured__img__1 */
   width: 98vw;
 }
   /* Desktop styles sheet eg. @screen media and (min-width: 1024px)  */
@@ -286,7 +303,8 @@ body{
     }
   }
 .featured__img__text{
-    margin: 0;
+  /* Base declaration for featured__img__text */
+  margin: 0;
 }
     /* Tablet styles sheet eg. @screen media and (min-width: 768px)  */
     @media screen and (min-width: 768px){
@@ -303,6 +321,7 @@ body{
       }
     }
 .featured__img__text__link{
+    /* Base declaration for featured__img__text__link */
 }
     /* Tablet styles sheet eg. @screen media and (min-width: 768px)  */
     @media screen and (min-width: 768px){
@@ -320,6 +339,7 @@ body{
 
     }
 .footer{
+  /* Base declaration for footer */  
   text-align: center;
 }
 /* Desktop styles sheet eg. @screen media and (min-width: 1024px)  */
