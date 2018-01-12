@@ -1,18 +1,23 @@
 /* Base sheet */
-p, h3{
+p,
+h3{
   /* Base declaration for font size and text align */
   font-size: 2em;
   text-align: center;
 }
+
 body{
   /* Base declaration for font color */
   color: #66656d;
 }
+
 .wrapper{
   /* Base declaration for .wrapper this will be used in main tag */
   display: flex;
   flex-flow: row wrap;
 }
+
+/* Header */
 .header__row{
   /* Base declaration for header */
   display: flex;
@@ -20,6 +25,7 @@ body{
   align-items: center;
   justify-content: center;
 }
+
     /* Desktop styles sheet eg. @screen media and (min-width: 1024px)  */
     @media screen and (min-width: 1024px){
       .header__row{
@@ -28,14 +34,17 @@ body{
         display: flex;
         }
     }
+
 .header__logo{
   /* Base declaration for header__logo */
 }
+
 .header__logo__inner{
   /* Base declaration for header__logo__inner */
   width: 30vw;
   height: 20vh;
 }
+
     /* Tablet styles sheet  eg. @screen media and (min-width: 768px)  */
     @media screen and (min-width: 768px){
       .header__logo{
@@ -53,11 +62,13 @@ body{
         height: 25vh;
       }
     }
+
 .header__title{
   /* Base declaration for header__title */
   width: 100%;
   text-align: center;
 }
+
     /* Desktop styles sheet eg. @screen media and (min-width: 1024px)  */
     @media screen and (min-width: 1024px){
       .header__title{
@@ -66,41 +77,50 @@ body{
         text-align: right;
       }
     }
+
 .header__title__h1{
   /* Base declaration for header__title__h1 */
   margin: 0;
   font-size: 3.5rem;
 
 }
+
     /* Tablet styles sheet  eg. @screen media and (min-width: 768px)  */
     @media screen and (min-width: 768px){
       .header__title__h1{
         font-size: 5.5em;
       }
     }
+
     /* Desktop styles sheet eg. @screen media and (min-width: 1024px)  */
     @media screen and (min-width: 1024px){
       .header__title__h1{
         font-size: 4.5rem;
       }
     }
+
 .header__title__h2{
   /* Base declaration for header__title__h2 */
   margin: 0;
   font-size: 2.0rem;
 }
+
     /* Tablet styles sheet  eg. @screen media and (min-width: 768px)  */
     @media screen and (min-width: 768px){
       .header__title__h2{
         font-size: 2.5em;
       }
     }
+
     /* Desktop styles sheet eg. @screen media and (min-width: 1024px)  */
     @media screen and (min-width: 1024px){
       .header__title__h2{
         font-size: 2.5rem;
       }
     }
+
+/* Content */
+/* Line */
 .line{
   /* Base declaration for line */
   /* border-width | border-style | border-color */
@@ -109,6 +129,7 @@ body{
   margin-top: 5%;
   margin-bottom: 5%;
 }
+
     /* Desktop styles sheet eg. @screen media and (min-width: 1024px)  */
     @media screen and (min-width: 1024px){
       .line{
@@ -116,6 +137,8 @@ body{
         margin: 2% 10% 5% 20%;
       }
     }
+
+/* Color */
 .color{
   /* Base declaration for color */
   order: 2;
@@ -125,74 +148,83 @@ body{
   justify-content: center;
   margin-top: 5%;
 }
+
     /* Desktop styles sheet eg. @screen media and (min-width: 1024px)  */
     @media screen and (min-width: 1024px){
       .color{
         order: 1;
         width: 10vw;
         margin: auto;
-
       }
     }
+
 .color__set{
   /* Base declaration for font .color__set */
   flex: 1;
-
 }
+
 .color__set__1{
   /* Base declaration for color__set__1 */
   flex: 1;
   order: -1;
 }
+
 .color__set__02b3e4{
   /* Base declaration for color__set__02b3e4 */
   width: 98vw;
   height: 10vh;
   background-color: #02b3e4;
-
 }
+
     /* Tablet styles sheet  eg. @screen media and (min-width: 768px)  */
     @media screen and (min-width: 768px){
       .color__set__02b3e4{
         height: 15vh;
       }
     }
+
     /* Desktop styles sheet eg. @screen media and (min-width: 1024px)  */
     @media screen and (min-width: 1024px){
       .color__set__02b3e4{
         width: 10vw;
       }
     }
+
 .color__set__2d3c49{
   /* Base declaration for color__set__2d3c49 */
   width: 98vw;
   height: 10vh;
   background-color: #2d3c49;
 }
+
     /* Tablet styles sheet  eg. @screen media and (min-width: 768px)  */
     @media screen and (min-width: 768px){
       .color__set__2d3c49{
         height: 15vh;
       }
     }
+
     /* Desktop styles sheet eg. @screen media and (min-width: 1024px)  */
     @media screen and (min-width: 1024px){
       .color__set__2d3c49{
         width: 10vw;
       }
     }
+
 .color__set__7d97ad{
   /* Base declaration for color__set__7d97ad */
   width: 98vw;
   height: 10vh;
   background-color: #7d97ad;
 }
+
     /* Tablet styles sheet  eg. @screen media and (min-width: 768px)  */
     @media screen and (min-width: 768px){
       .color__set__7d97ad{
         height: 15vh;
       }
     }
+
     /* Tablet styles sheet  eg. @screen media and (min-width: 768px)  */
     @media screen and (min-width: 1024px){
       .color__set__7d97ad{
@@ -204,10 +236,13 @@ body{
   /* Base declaration for color__set__text */
   margin: 0;
 }
+
+/* Main Picture */
 .main{
   /* Base declaration for main */
   order: 1;
 }
+
     /* Desktop styles sheet eg. @screen media and (min-width: 1024px)  */
     @media screen and (min-width: 1024px){
       .main{
@@ -215,23 +250,28 @@ body{
         width: 80vw;
       }
     }
+
 .main__img{
   /* Base declaration for main__img */
   width: 98vw;
-  height: 70vh;
+  height: 50vh;
 }
+
     /* Desktop styles sheet eg. @screen media and (min-width: 1024px)  */
     @media screen and (min-width: 1024px){
       .main__img{
         width: 70vw;
       }
     }
+
+/* Featured Work */
 .featured{
   /* Base declaration for featured */
   order: 3;
   text-align: center;
   margin-top: 5%;
 }
+
     /* Tablet styles sheet  eg. @screen media and (min-width: 768px)  */
     @media screen and (min-width: 768px){
       .featured{
@@ -249,10 +289,12 @@ body{
         margin: 5% 10% 2% 19%;
       }
     }
+
 .featured__title{
   /* Base declaration for featured__title */
   width: 100vw;
 }
+
   /* Desktop styles sheet eg. @screen media and (min-width: 1024px)  */
   @media screen and (min-width: 1024px){
     .featured__title{
@@ -260,27 +302,32 @@ body{
       text-align: left;
     }
   }
+
 .featured__title__h2{
   /* Base declaration for featured__title__h2 */
   font-size: 3.5rem;
   margin: 0;
 }
+
     /* Tablet styles sheet  eg. @screen media and (min-width: 768px)  */
     @media screen and (min-width: 768px){
       .featured__title__h2{
         font-size: 4.5rem;
       }
     }
+
 .featured__img{
   /* Base declaration for featured__img */
   margin-bottom: 5%;
 }
+
     /* Tablet styles sheet  eg. @screen media and (min-width: 768px)  */
     @media screen and (min-width: 768px){
       .featured__img{
         width: 98vw;
       }
     }
+
     /* Desktop styles sheet eg. @screen media and (min-width: 1024px)  */
     @media screen and (min-width: 1024px){
       .featured__img{
@@ -290,10 +337,12 @@ body{
         margin-right: 1%;
       }
     }
+
 .featured__img__1{
   /* Base declaration for featured__img__1 */
   width: 98vw;
 }
+
   /* Desktop styles sheet eg. @screen media and (min-width: 1024px)  */
   @media screen and (min-width: 1024px){
     .featured__img__1{
@@ -302,27 +351,30 @@ body{
       height: 20vh;
     }
   }
+
 .featured__img__text{
   /* Base declaration for featured__img__text */
   margin: 0;
 }
+
     /* Tablet styles sheet eg. @screen media and (min-width: 768px)  */
     @media screen and (min-width: 768px){
       .featured__img__text{
         font-size: 3.5rem;
-
       }
     }
+
     /* Desktop styles sheet eg. @screen media and (min-width: 1024px)  */
     @media screen and (min-width: 1024px){
       .featured__img__text{
         font-size: 2.5rem;
-
       }
     }
+
 .featured__img__text__link{
     /* Base declaration for featured__img__text__link */
 }
+
     /* Tablet styles sheet eg. @screen media and (min-width: 768px)  */
     @media screen and (min-width: 768px){
       .featured__img__text__link{
@@ -330,18 +382,20 @@ body{
         margin: 0;
       }
     }
+
     /* Desktop styles sheet eg. @screen media and (min-width: 1024px)  */
     @media screen and (min-width: 1024px){
       .featured__img__text__link{
         font-size: 1.1rem;
         margin: 0;
       }
-
     }
+
 .footer{
-  /* Base declaration for footer */  
+  /* Base declaration for footer */
   text-align: center;
 }
+
 /* Desktop styles sheet eg. @screen media and (min-width: 1024px)  */
 @media screen and (min-width: 1024px){
   .footer{
