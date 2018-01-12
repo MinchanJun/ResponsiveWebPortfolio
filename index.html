@@ -45,7 +45,11 @@
 
     <div class="main">
       <picture >
-          <img class="main__img" src="img/main.jpg" alt="main">
+          <source srcset="img/main_1920.jpg 1920w" media="(min-width:1380px)">
+          <source srcset="img/main_1280.png 1280w" media="(min-width:800px)">
+          <source srcset="img/main_800.png 800w" media="(min-width:769px)">
+          <source srcset="img/main_768.png 768w" media="(min-width:413px)">
+          <img class="main__img" srcset="img/main_412.png 412w" alt="main">
       </picture>
     </div>
 
